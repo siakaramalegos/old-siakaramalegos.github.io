@@ -1,0 +1,50 @@
+body {
+	font-family: "Kalimati", "Verdana", sans-serif;
+	color: #666666;
+	font-size: 15.5px;
+}
+
+.text-orange {
+	color: #F07C17;
+	font-size: 24px;
+	font-weight: bolder;
+}
+
+.padded {
+	padding-left: 17px;
+}
+
+.containerpad {
+	margin-left: 25px;
+	margin-right: 31px;
+}
+
+.notopmargin {
+	margin-top: 0px;
+	margin-bottom: 31px;
+}
+
+.title-super {
+	font-size: 47px;
+	margin-bottom: 30px;
+	margin-top: 45px;
+}
+
+.text-spaced {
+	line-height: 2;
+}
+
+.testbox {
+    width: 375px;
+    height: 223px;
+    padding-left: 32px;
+    padding-top: 15px;
+    border: 1px solid #CCCCCC;
+    margin-left: 0px;
+    margin-top: 32px;
+}
+
+.h2box {
+	margin-bottom: 28px;
+	margin-top: 16px;
+}

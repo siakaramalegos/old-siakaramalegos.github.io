@@ -1,0 +1,49 @@
+body {
+	font-family: 'Oswald', sans-serif;
+	color: #A9CF54;
+	font-weight: 300;
+	background-color: #646464;
+}
+
+.text-super {
+	color: #04BFBF;
+	font-weight: 700;
+	text-transform: lowercase;
+}
+
+.text-sub {
+	color: #CAFCD8;
+	text-transform: lowercase;
+}
+
+.text-yellow {
+	color: #F7E967;
+}
+
+/* unvisited link */
+a:link {
+    color: #A9CF54;
+}
+
+/* visited link */
+a:visited {
+    color: #588F27;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+    color: #A9CF54;
+}
+
+.projectbox {
+	border: 10px solid #747474;
+}
+
+.horizrule {
+	border-top: 5px solid #FF00FF;
+}

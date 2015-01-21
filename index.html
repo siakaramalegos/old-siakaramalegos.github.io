@@ -1,7 +1,101 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>DevBySia</title>
+  
+  <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styleindex.css">
+
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+</head>
+
+  <body>
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-1">
+          <img class="img-responsive" src="http://placehold.it/100x100" alt="DevBySia logo">
+        </div>
+        <div class="col-md-3">
+          <h1 class="text-super">Sia Karamalegos</h1>
+        </div>
+        <div class="col-md-4">
+          <h1 class="text-sub">Newbie Web Developer</h3>
+        </div>
+        <div class="col-md-4">
+          <!-- Future space for toolbar -->
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <hr class="horizrule">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Featured Work</h2>
+        </div>
+      </div>
+
+      <div class="row text-center">
+        <div class="col-md-3">
+          <div class="projectbox">
+            <img src="images/datalaunchscreenshot600400.png" class="img-responsive" alt="DataLaunch image">
+            <h3 class="text-yellow">DataLaunch for Schools</h3>
+            <p><a href="http://www.datalaunchforschools.com/">Link to website</a></p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="projectbox" data-toggle="modal" data-target="#project1">
+            <img src="images/udacitymugscreenshot2.png" class="img-responsive" alt="Project 1 image">
+            <h3 class="text-yellow">Udacity Mug</h3>
+            <p><a href="/project1">Link to project</a></p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="projectbox">
+            <img src="images/portfolioscreenshot.png" class="img-responsive" alt="Portfolio page image">
+            <h3 class="text-yellow">Portfolio Page</h3>
+            <p><a href="/portfolio">Link to project</a></p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="projectbox">
+            <img src="http://placehold.it/300x200" class="img-responsive">
+            <h3 class="text-yellow">Coming soon!</h3>
+            <p><a href="/">Link to project</a></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="http://placekitten.com/555/300">
+            This was my first project in this class. I learned a lot about HTML and CSS.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
 </html>
