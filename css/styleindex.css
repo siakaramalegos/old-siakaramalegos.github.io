@@ -42,6 +42,7 @@ a:active {
 
 .projectbox {
 	border: 10px solid #747474;
+	margin-top: 15px;
 }
 
 .horizrule {
