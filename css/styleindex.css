@@ -5,6 +5,10 @@ body {
 	background-color: #646464;
 }
 
+p {
+	color: white;
+}
+
 .text-super {
 	color: #04BFBF;
 	font-weight: 700;
@@ -47,4 +51,6 @@ a:active {
 
 .horizrule {
 	border-top: 5px solid #FF00FF;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
