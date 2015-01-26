@@ -2,7 +2,7 @@ body {
 	font-family: 'Oswald', sans-serif;
 	color: #A9CF54;
 	font-weight: 300;
-	background-color: #646464;
+	background-color: #939292;
 }
 
 p {
@@ -12,6 +12,10 @@ p {
 .navbar {
 	border-radius: 0;
 	border-bottom: 5px solid #FF00FF;
+	background-color: #646464;
+	min-height: 70px;
+	vertical-align: middle;
+	line-height: 70px;
 }
 
 .navbar-brand {
@@ -20,13 +24,9 @@ p {
 	color: #04BFBF;
 	font-size: 36px;
 	text-transform: lowercase;
-	line-height: 40px;
+	line-height: 70px;
+	height: 70px;
 }
-
-.navbar-brand a {
-	color: #04BFBF;
-} 
-
 
 .text-super {
 	color: #04BFBF;
