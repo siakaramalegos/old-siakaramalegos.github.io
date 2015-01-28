@@ -29,6 +29,14 @@ p {
 	height: 70px;
 }
 
+.navbar-header a hgroup .text-super {
+	color: #04BFBF;
+}
+
+.navbar-header a:hover hgroup .text-super {
+	color: #FFF;
+}
+
 .text-super {
 	color: #04BFBF;
 	font-weight: 700;
@@ -72,7 +80,7 @@ a:active {
 
 .footer {
 	border-top: 5px solid #FF00FF;
-	background-color: #646464; 
+	background-color: #646464;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	margin-top: 50px;
