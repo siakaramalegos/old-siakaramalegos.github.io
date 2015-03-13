@@ -73,11 +73,6 @@ a:active {
     color: #A9CF54;
 }
 
-.projectbox {
-	border: 10px solid #747474;
-	margin-top: 15px;
-}
-
 .footer {
 	border-top: 5px solid #FF00FF;
 	background-color: #646464;
@@ -139,18 +134,18 @@ a:hover i {
 	}
 }
 
-.portfolio {
+#portfolio {
 		float: left;
-		position: relative;
-		width: 100%;
+		/*position: relative;*/
+		/*width: 100%;*/
 	}
 
-		.portfolio article {
+		#portfolio .article {
 			background: #d0d0d0;
 			border: 1px solid #b9b9b9;
 			border-radius: 5px;
 			float: left;
-			margin: 0 0 30px 30px;
+			margin-bottom: 30px;
 			overflow: hidden;
 			padding: 9px;
 			position: relative;
@@ -158,24 +153,25 @@ a:hover i {
 					-webkit-transition: all 0.1s ease-in;
 					-moz-transition: all 0.1s ease-in;
 					-o-transition: all 0.1s ease-in;
-			width: 350px;
+			width: 300px;
 			height: 300px;
 		}
 
-			.portfolio article:nth-child(3n+1) {
+
+			#portfolio .article:nth-child(3n+1) {
 				clear: left;
-				margin-left: 0;
+				/*margin-left: 0;*/
 			}
 
-			.portfolio article header {
+			#portfolio .article header {
 
 				position: relative;
-				width: 330px;
+				width: 280px;
 				height: 280px;
 				z-index: 2;
 			}
 
-			.portfolio article header .details {
+			#portfolio .article header .details {
 				background: #454545;
 				background: rgba(80,80,80,0.9);
 				padding: 15px 0;
@@ -187,11 +183,11 @@ a:hover i {
 					-webkit-transition: all 0.1s ease-in;
 					-moz-transition: all 0.1s ease-in;
 					-o-transition: all 0.1s ease-in;
-				width: 330px;
+				width: 280px;
 					height: 100px;
 			}
 
-				.portfolio article header h1 {
+				#portfolio .article header h1 {
 					color: white;
 					font-size: 24px;
 					line-height: 25px;
@@ -199,21 +195,21 @@ a:hover i {
 					margin-top: 0;
 				}
 
-				.portfolio article header p,
-				.portfolio article header p a {
+				#portfolio .article header p,
+				#portfolio .article header p a {
 					color: white;
 					font-size: 14px;
 					line-height: 14px;
 				}
 
-			.portfolio article img {
+			#portfolio .article img {
 				border-radius: 5px;
 				position: absolute;
 					top: 9px;
 					left: 9px;
 			}
 
-				.portfolio article .clr {
+				#portfolio .article .clr {
 					opacity: 0;
 					z-index: 1;
 					transition: all 0.2s ease-in;
@@ -222,15 +218,15 @@ a:hover i {
 						-o-transition: all 0.2s ease-in;
 				}
 
-			.portfolio article:hover {
+			#portfolio .article:hover {
 				background: #454545;
 				border: 1px solid #454545;
 			}
 
-				.portfolio article:hover header .details {
+				#portfolio .article:hover header .details {
 					top: 192px;
 				}
 
-				.portfolio article:hover .clr {
+				#portfolio .article:hover .clr {
 					opacity: 1;
 				}
