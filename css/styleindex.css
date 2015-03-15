@@ -58,6 +58,10 @@ p {
 				color: #A9CF54;
 			}
 
+			.navbar-default .navbar-nav>li>a {
+				color: #A9CF54;
+			}
+
 			.nav.navbar-nav.navbar-right li a:hover {
 				color: #FF00FF;
 				background-color: #646464;
