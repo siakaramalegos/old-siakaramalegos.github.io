@@ -14,33 +14,61 @@ p {
 	border-radius: 0;
 	border-bottom: 5px solid #FF00FF;
 	background-color: #646464;
-	min-height: 70px;
-	vertical-align: middle;
-	line-height: 70px;
+	height: 75px;
+	line-height: 75px;
+	padding-top: 15px;
 }
 
-.navbar-brand {
-	padding-top: 5px;
-	padding-bottom: 5px;
+	.navbar-brand {
+		color: #04BFBF;
+		font-size: 36px;
+		text-transform: lowercase;
+	}
+
+	.logo {
+		padding: 0;
+		height: 50px;
+		float: left;
+		position: relative;
+ 		bottom: 15px;
+	}
+
+.navbar-header a .text-super {
 	color: #04BFBF;
-	font-size: 36px;
-	text-transform: lowercase;
-	line-height: 70px;
-	height: 70px;
 }
 
-.navbar-header a hgroup .text-super {
-	color: #04BFBF;
-}
-
-.navbar-header a:hover hgroup .text-super {
+.navbar-header a:hover .text-super {
 	color: #FFF;
 }
+
+	.navbar-right {
+		margin-right: 0;
+	}
+
+		.navbar-right li {
+			font-size: 24px;
+			font-weight: 500;
+		}
+
+			.navbar-right li a {
+				color: #A9CF54;
+			}
+
+			.navbar-right li a:visited {
+				color: #A9CF54;
+			}
+
+			.nav.navbar-nav.navbar-right li a:hover {
+				color: #FF00FF;
+				background-color: #646464;
+			}
 
 .text-super {
 	color: #04BFBF;
 	font-weight: 700;
 	text-transform: lowercase;
+	padding-left: 20px;
+	padding-right: 15px;
 }
 
 .text-sub {
@@ -51,26 +79,6 @@ p {
 
 .text-yellow {
 	color: #F7E967;
-}
-
-/* unvisited link */
-a:link {
-    color: #A9CF54;
-}
-
-/* visited link */
-a:visited {
-    color: #588F27;
-}
-
-/* mouse over link */
-a:hover {
-    color: #FF00FF;
-}
-
-/* selected link */
-a:active {
-    color: #A9CF54;
 }
 
 .footer {
@@ -201,24 +209,28 @@ a:hover i {
 	#portfolio .article {
 		margin-bottom: 25px;
 	}
+
+	.navbar-right li {
+		font-size: 20px;
+		padding: 5px;
+	}
+
+	.text-super {
+		font-size: 32px;
+	}
+
+	.text-sub {
+		font-size: 32px;
+	}
 }
 
 @media only screen and (max-width: 750px) {
 	.text-super {
-		font-size: 24px;
+		font-size: 28px;
 	}
 
 	.text-sub {
-		font-size: 24px;
-	}
-
-	.navbar {
-		min-height: 50px;
-	}
-
-	.navbar-brand {
-		line-height: 50px;
-		height: 50px;
+		font-size: 28px;
 	}
 
 	.logo img {
