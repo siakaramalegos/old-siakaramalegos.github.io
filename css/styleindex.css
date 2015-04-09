@@ -51,20 +51,28 @@ p {
 		}
 
 			.navbar-right li a {
-				color: #A9CF54;
 				background-color: #646464;
 			}
 
 			.navbar-right li a:visited {
+				color: #ccc;
+			}
+
+			.navbar-right li .active a {
 				color: #A9CF54;
 			}
 
 			.navbar-default .navbar-nav>li>a {
-				color: #A9CF54;
+				color: #ccc;
 			}
 
 			.nav.navbar-nav.navbar-right li a:hover {
 				color: #FF00FF;
+				background-color: #646464;
+			}
+
+			.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+				color: #A9CF54;
 				background-color: #646464;
 			}
 
@@ -86,12 +94,9 @@ p {
 	color: #F7E967;
 }
 
-.footer {
-	border-top: 5px solid #FF00FF;
-	background-color: #646464;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	margin-top: 50px;
+#footer-right {
+	text-align: right;
+	margin-bottom: 10px;
 }
 
 .about {
