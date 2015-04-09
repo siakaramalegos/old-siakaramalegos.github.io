@@ -94,6 +94,11 @@ p {
 	margin-top: 50px;
 }
 
+#footer-right {
+	text-align: right;
+	margin-bottom: 10px;
+}
+
 .about {
 	font-size: 16px;
 }
