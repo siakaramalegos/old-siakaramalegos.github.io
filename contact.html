@@ -16,7 +16,7 @@
 
   <script src="js/jquery-1.11.2.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-
+  <script src="js/wufoo.js"></script>
 </head>
 
   <body>
@@ -52,23 +52,35 @@
     <div class="container">
 
       <div class="row">
-        <div class="col-md-4">
-          <img src="images/casual-headshot-art.jpg" class="img-responsive">
+
+        <div class="col-md-6">
+          <h2 id="Contact">Say Hello!</h2>
+          <form id="form1" name="form1" class="wufoo topLabel page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://siakaramalegos.wufoo.com/forms/z154s2og1r0og87/#public">
+            <div class="form-group">
+              <label for="Field1">Email</label>
+              <input type="email" class="form-control" id="Field1" name="Field1" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <label for="Field2">Your Message</label>
+              <textarea class="form-control" rows="6" id="Field2" name="Field2" placeholder="Type your message here."></textarea>
+            </div>
+            <button type="submit" id="saveForm" name="saveForm" class="btn btn-default">Submit</button>
+            <div class="hide">
+              <label for="comment">Do Not Fill This Out</label>
+              <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+              <input type="hidden" id="idstamp" name="idstamp" value="Jc6m44TaMJ4jHlHW4DA4s0fJKbIR43TDmsMp+QWSMOU=" />
+            </div>
+          </form>
+
+          <br>
+
+          <h2 id="Follow">...or Follow Me!</h2>
+          <a href="https://github.com/siakaramalegos" target="_blank"><i class="fa fa-github fa-3x"></i></a>
+          <a href="https://twitter.com/thegreengreek" target="_blank"><i class="fa fa-twitter fa-3x"></i></a>
+          <a href="https://www.linkedin.com/in/karamalegos" target="_blank"><i class="fa fa-linkedin fa-3x"></i></a>
         </div>
 
-        <div class="col-md-8 about">
-            <h2 id="About">About Me</h2>
-            <p>Sia is a relatively new web developer. She learned Fortran 90 (!!) in college, and then didn't pick up programming again until the advent of MOOCs. After casually playing with Python and JavaScript, she decided to sign up for Udacity's Front End Nanodegree as well as Tech Talent South's code-immersion bootcamp in New Orleans.</p>
 
-            <p>Sia loves data and back-end web development but also likes to be able to implement well-designed front-end interfaces.  Sia also has over 13 years of experience in strategy, project management, and operations.</p>
-
-            <p>She is a lover of dogs and New Orleans, a part-time crochet pattern designer, and an aspirational endurance athlete.</p>
-
-            <h2 id="Follow">Follow</h2>
-            <a href="https://github.com/siakaramalegos" target="_blank"><i class="fa fa-github fa-3x"></i></a>
-            <a href="https://twitter.com/thegreengreek" target="_blank"><i class="fa fa-twitter fa-3x"></i></a>
-            <a href="https://www.linkedin.com/in/karamalegos" target="_blank"><i class="fa fa-linkedin fa-3x"></i></a>
-          </div>
       </div>
     </div>
 
