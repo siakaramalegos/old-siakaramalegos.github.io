@@ -51,20 +51,28 @@ p {
 		}
 
 			.navbar-right li a {
-				color: #A9CF54;
 				background-color: #646464;
 			}
 
 			.navbar-right li a:visited {
+				color: #ccc;
+			}
+
+			.navbar-right li .active a {
 				color: #A9CF54;
 			}
 
 			.navbar-default .navbar-nav>li>a {
-				color: #A9CF54;
+				color: #ccc;
 			}
 
 			.nav.navbar-nav.navbar-right li a:hover {
 				color: #FF00FF;
+				background-color: #646464;
+			}
+
+			.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+				color: #A9CF54;
 				background-color: #646464;
 			}
 
