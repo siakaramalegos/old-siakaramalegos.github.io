@@ -236,11 +236,15 @@ a:hover i {
 
 @media only screen and (max-width: 750px) {
 	.text-super {
-		font-size: 28px;
+		font-size: 26px;
 	}
 
 	.text-sub {
-		font-size: 28px;
+		font-size: 26px;
+	}
+
+	.navbar-right li {
+		font-size: 18px;
 	}
 
 	.logo img {
@@ -252,5 +256,9 @@ a:hover i {
 @media only screen and (max-width: 520px) {
 	.text-sub {
 		display: none;
+	}
+
+	.text-super {
+		font-size: 20px;
 	}
 }
