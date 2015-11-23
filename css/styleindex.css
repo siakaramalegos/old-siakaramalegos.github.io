@@ -3,8 +3,7 @@ body {
   color: white;
   font-weight: 300;
   background-color: #333;
-  position: relative;
-  padding-bottom: 50px; }
+  position: relative; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #A9CF54; }
@@ -14,14 +13,19 @@ p {
   font-size: 16px;
   line-height: 1.67; }
 
+.bg-light {
+  background-color: #fefefe;
+  width: 100%;
+  color: #555; }
+
 section {
-  padding: 100px 0 0; }
+  padding: 80px 0; }
 
 header {
   text-align: center;
   color: #fff;
   background-attachment: scroll;
-  background-color: #777; }
+  background-color: #333; }
   header h1 {
     color: #04BFBF;
     font-weight: 700;
@@ -55,8 +59,8 @@ header {
     font-weight: 500; }
 
 .navbar-default {
-  border-color: rgba(255, 255, 255, 0.3);
-  background-color: rgba(120, 120, 120, 0.8); }
+  border-color: #FF00FF;
+  background-color: rgba(70, 70, 70, 0.8); }
 
 .navbar-default .nav li > a, .navbar-default .nav > li > a:focus {
   color: #ccc;
@@ -139,7 +143,7 @@ header {
       opacity: 1; }
 
 a i {
-  color: white;
+  color: #777;
   margin: 10px; }
 
 a:hover i {
