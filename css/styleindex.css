@@ -3,7 +3,8 @@ body {
   color: white;
   font-weight: 300;
   background-color: #333;
-  position: relative; }
+  position: relative;
+  padding-bottom: 50px; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #A9CF54; }
@@ -12,6 +13,9 @@ p {
   margin-bottom: 20px;
   font-size: 16px;
   line-height: 1.67; }
+
+section {
+  padding: 100px 0 0; }
 
 header {
   text-align: center;
@@ -28,6 +32,11 @@ header {
   header img#logo {
     display: inline-block;
     max-width: 300px; }
+  header .header-content {
+    position: relative;
+    width: 100%;
+    padding: 100px 15px;
+    text-align: center; }
 
 .navbar-brand {
   font-size: 2em;
@@ -45,30 +54,38 @@ header {
     text-transform: lowercase;
     font-weight: 500; }
 
+.navbar-default {
+  border-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(120, 120, 120, 0.8); }
+
 .navbar-default .nav li > a, .navbar-default .nav > li > a:focus {
+  color: #ccc;
   text-transform: lowercase;
   font-size: 1.2em;
   font-weight: 500; }
   .navbar-default .nav li > a:hover, .navbar-default .nav > li > a:focus:hover {
-    color: #FF00FF; }
+    color: #FF00FF;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s; }
 .navbar-default .nav li.active > a, .navbar-default .nav li.active > a:focus {
   color: #A9CF54;
   background-color: transparent; }
   .navbar-default .nav li.active > a:hover, .navbar-default .nav li.active > a:focus:hover {
-    background-color: transparent; }
+    color: #FF00FF;
+    background-color: transparent;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s; }
 
 #portfolio article {
   background: #d0d0d0;
   border: 1px solid #b9b9b9;
   border-radius: 5px;
-  margin-bottom: 70px;
+  margin: 35px 0;
   overflow: hidden;
   padding: 9px;
   position: relative;
-  transition: all 0.2s ease-in;
-  -webkit-transition: all 0.1s ease-in;
-  -moz-transition: all 0.1s ease-in;
-  -o-transition: all 0.1s ease-in;
   width: 300px;
   height: 300px; }
   #portfolio article:hover header .details {
@@ -120,5 +137,16 @@ header {
     border: 1px solid #454545; }
     #portfolio article:hover .clr {
       opacity: 1; }
+
+a i {
+  color: white;
+  margin: 10px; }
+
+a:hover i {
+  color: #FF00FF; }
+
+@media only screen and (max-width: 430px) {
+  .text-sub {
+    display: none; } }
 
 /*# sourceMappingURL=styleindex.css.map */

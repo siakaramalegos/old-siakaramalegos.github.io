@@ -20,6 +20,7 @@ body {
 	font-weight: 300;
 	background-color: #333;
 	position: relative;
+	padding-bottom: 50px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -30,6 +31,10 @@ p {
   margin-bottom: 20px;
   font-size: 16px;
   line-height: 1.67;
+}
+
+section {
+  padding: 100px 0 0;
 }
 
 header {
@@ -52,6 +57,13 @@ header {
 	img#logo {
 		display: inline-block;
 		max-width: 300px;
+	}
+
+	.header-content {
+    position: relative;
+    width: 100%;
+    padding: 100px 15px;
+    text-align: center;
 	}
 }
 
@@ -84,14 +96,23 @@ header {
 	}
 }
 
+.navbar-default {
+    border-color: rgba(255,255,255,.3);
+    background-color: rgba(120,120,120,.8);
+}
+
 .navbar-default .nav {
 	li>a, >li>a:focus {
+    color: #ccc;
     text-transform: lowercase;
     font-size: 1.2em;
     font-weight: 500;
 
     &:hover {
 	    color: $pink;
+	    -webkit-transition: all .35s;
+    	-moz-transition: all .35s;
+    	transition: all .35s;
 	  }
 	}
 
@@ -100,34 +121,14 @@ header {
     background-color: transparent;
 
     &:hover {
+    	color: $pink;
 	    background-color: transparent;
+	    -webkit-transition: all .35s;
+	    -moz-transition: all .35s;
+	    transition: all .35s;
 		}
 	}
 }
-
-
-// #footer-right {
-// 	text-align: right;
-// 	margin-bottom: 10px;
-// }
-
-// label {
-// 	font-weight: normal;
-// 	font-size: 16px;
-// 	color: #F7E967;
-// }
-// .contact-icon {
-// 	margin-right: 15px;
-// }
-
-// a i {
-// 	color: white;
-// 	margin-right: 10px;
-// }
-
-// a:hover i {
-// 	color: #ccc;
-// }
 
 
 
@@ -136,21 +137,15 @@ header {
 // Portfolio
 // *************************
 #portfolio {
-		// float: left;
 
 		article {
 			background: #d0d0d0;
 			border: 1px solid #b9b9b9;
 			border-radius: 5px;
-			// float: left;
-			margin-bottom: 70px;
+			margin: 35px 0;
 			overflow: hidden;
 			padding: 9px;
 			position: relative;
-			transition: all 0.2s ease-in;
-				-webkit-transition: all 0.1s ease-in;
-				-moz-transition: all 0.1s ease-in;
-				-o-transition: all 0.1s ease-in;
 			width: 300px;
 			height: 300px;
 
@@ -192,7 +187,7 @@ header {
 						-moz-transition: all 0.1s ease-in;
 						-o-transition: all 0.1s ease-in;
 					width: 280px;
-						height: 100px;
+					height: 100px;
 				}
 			}
 
@@ -228,46 +223,28 @@ header {
 // 			}
 
 
-// @media only screen and (max-width: 1200px) {
-// 	#portfolio article {
-// 		margin-bottom: 25px;
-// 	}
-// }
 
-// 	.text-super {
-// 		font-size: 32px;
-// 	}
 
-// 	.text-sub {
-// 		font-size: 32px;
-// 	}
-// }
+// *************************
+// Footer icons
+// *************************
+a i {
+	color: white;
+	margin: 10px;
+}
 
-// @media only screen and (max-width: 750px) {
-// 	.text-super {
-// 		font-size: 26px;
-// 	}
+a:hover i {
+	color: $pink;
+}
 
-// 	.text-sub {
-// 		font-size: 26px;
-// 	}
 
-// 	.navbar-right li {
-// 		font-size: 18px;
-// 	}
 
-// 	.logo img {
-// 		width: auto;
-// 		height: auto;
-// 	}
-// }
 
-// @media only screen and (max-width: 520px) {
-// 	.text-sub {
-// 		display: none;
-// 	}
-
-// 	.text-super {
-// 		font-size: 20px;
-// 	}
-// }
+// *************************
+// Smaller screen widths
+// *************************
+@media only screen and (max-width: 430px) {
+	.text-sub {
+		display: none;
+	}
+}
