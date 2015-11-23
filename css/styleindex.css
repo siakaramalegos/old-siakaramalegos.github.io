@@ -1,264 +1,156 @@
 body {
-	font-family: 'Oswald', sans-serif;
-	color: #A9CF54;
-	font-weight: 300;
-	background-color: #333;
-	padding-top: 90px;
-}
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-weight: 300;
+  background-color: #333;
+  position: relative; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #A9CF54; }
 
 p {
-	color: white;
-}
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.67; }
 
-.navbar {
-	border-radius: 0;
-	border-bottom: 5px solid #FF00FF;
-	background-color: #646464;
-	height: 75px;
-	line-height: 75px;
-	padding-top: 15px;
-}
+.bg-light {
+  background-color: #fefefe;
+  width: 100%;
+  color: #555; }
 
-	.navbar-brand {
-		color: #04BFBF;
-		font-size: 36px;
-		text-transform: lowercase;
-	}
+section {
+  padding: 80px 0; }
 
-	.logo {
-		padding: 0;
-		height: 50px;
-		float: left;
-		position: relative;
- 		bottom: 15px;
-	}
+header {
+  text-align: center;
+  color: #fff;
+  background-attachment: scroll;
+  background-color: #333; }
+  header h1 {
+    color: #04BFBF;
+    font-weight: 700;
+    text-transform: lowercase;
+    margin-bottom: 0; }
+  header h2 {
+    color: #CAFCD8; }
+  header img#logo {
+    display: inline-block;
+    max-width: 300px; }
+  header .header-content {
+    position: relative;
+    width: 100%;
+    padding: 100px 15px;
+    text-align: center; }
 
-.navbar-header a .text-super {
-	color: #04BFBF;
-}
+.navbar-brand {
+  font-size: 2em;
+  text-transform: lowercase; }
+  .navbar-brand .text-super {
+    color: #04BFBF;
+    font-weight: 500; }
+    .navbar-brand .text-super:hover {
+      color: white;
+      -webkit-transition: all .35s;
+      -moz-transition: all .35s;
+      transition: all .35s; }
+  .navbar-brand .text-sub {
+    color: #CAFCD8;
+    text-transform: lowercase;
+    font-weight: 500; }
 
-.navbar-header a:hover .text-super {
-	color: #FFF;
-}
+.navbar-default {
+  border-color: #FF00FF;
+  background-color: rgba(70, 70, 70, 0.8); }
 
-	.navbar-right {
-		margin-right: 0;
-	}
+.navbar-default .nav li > a, .navbar-default .nav > li > a:focus {
+  color: #ccc;
+  text-transform: lowercase;
+  font-size: 1.2em;
+  font-weight: 500; }
+  .navbar-default .nav li > a:hover, .navbar-default .nav > li > a:focus:hover {
+    color: #FF00FF;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s; }
+.navbar-default .nav li.active > a, .navbar-default .nav li.active > a:focus {
+  color: #A9CF54;
+  background-color: transparent; }
+  .navbar-default .nav li.active > a:hover, .navbar-default .nav li.active > a:focus:hover {
+    color: #FF00FF;
+    background-color: transparent;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s; }
 
-		.navbar-right li {
-			font-size: 24px;
-			font-weight: 500;
-		}
-
-			.navbar-right li a {
-				background-color: #646464;
-			}
-
-			.navbar-right li a:visited {
-				color: #ccc;
-			}
-
-			.navbar-right li .active a {
-				color: #A9CF54;
-			}
-
-			.navbar-default .navbar-nav>li>a {
-				color: #ccc;
-			}
-
-			.nav.navbar-nav.navbar-right li a:hover {
-				color: #FF00FF;
-				background-color: #646464;
-			}
-
-			.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-				color: #A9CF54;
-				background-color: #646464;
-			}
-
-.text-super {
-	color: #04BFBF;
-	font-weight: 700;
-	text-transform: lowercase;
-	padding-left: 20px;
-	padding-right: 15px;
-}
-
-.text-sub {
-	color: #CAFCD8;
-	text-transform: lowercase;
-	font-weight: 500;
-}
-
-.text-yellow {
-	color: #F7E967;
-}
-
-#footer-right {
-	text-align: right;
-	margin-bottom: 10px;
-}
-
-.about {
-	font-size: 16px;
-}
-
-label {
-	font-weight: normal;
-	font-size: 16px;
-	color: #F7E967;
-}
-.contact-icon {
-	margin-right: 15px;
-}
+#portfolio article {
+  background: #d0d0d0;
+  border: 1px solid #b9b9b9;
+  border-radius: 5px;
+  margin: 35px 0;
+  overflow: hidden;
+  padding: 9px;
+  position: relative;
+  width: 300px;
+  height: 300px; }
+  #portfolio article:hover header .details {
+    top: 192px; }
+  #portfolio article header {
+    position: relative;
+    width: 280px;
+    height: 280px;
+    z-index: 2;
+    background: none; }
+    #portfolio article header h1 {
+      color: white;
+      font-size: 24px;
+      line-height: 25px;
+      margin-bottom: 5px;
+      margin-top: 0; }
+    #portfolio article header p, #portfolio article header p a {
+      color: white;
+      font-size: 14px;
+      line-height: 14px; }
+    #portfolio article header .details {
+      background: #454545;
+      background: rgba(80, 80, 80, 0.9);
+      padding: 15px 0;
+      position: absolute;
+      top: 290px;
+      left: 0;
+      text-align: center;
+      transition: all 0.2s ease-in;
+      -webkit-transition: all 0.1s ease-in;
+      -moz-transition: all 0.1s ease-in;
+      -o-transition: all 0.1s ease-in;
+      width: 280px;
+      height: 100px; }
+  #portfolio article img {
+    border-radius: 5px;
+    position: absolute;
+    top: 9px;
+    left: 9px; }
+  #portfolio article img.clr {
+    opacity: 0;
+    z-index: 1;
+    transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in; }
+  #portfolio article:hover {
+    background: #454545;
+    border: 1px solid #454545; }
+    #portfolio article:hover .clr {
+      opacity: 1; }
 
 a i {
-	color: white;
-	margin-right: 10px;
-}
+  color: #777;
+  margin: 10px; }
 
 a:hover i {
-	color: #ccc;
-}
+  color: #FF00FF; }
 
-#portfolio {
-		float: left;
-	}
+@media only screen and (max-width: 430px) {
+  .text-sub {
+    display: none; } }
 
-		#portfolio .article {
-			background: #d0d0d0;
-			border: 1px solid #b9b9b9;
-			border-radius: 5px;
-			float: left;
-			margin-bottom: 70px;
-			overflow: hidden;
-			padding: 9px;
-			position: relative;
-				transition: all 0.2s ease-in;
-					-webkit-transition: all 0.1s ease-in;
-					-moz-transition: all 0.1s ease-in;
-					-o-transition: all 0.1s ease-in;
-			width: 300px;
-			height: 300px;
-		}
-
-
-			#portfolio .article:nth-child(3n+1) {
-				clear: left;
-			}
-
-			#portfolio .article header {
-
-				position: relative;
-				width: 280px;
-				height: 280px;
-				z-index: 2;
-			}
-
-			#portfolio .article header .details {
-				background: #454545;
-				background: rgba(80,80,80,0.9);
-				padding: 15px 0;
-				position: absolute;
-					top: 290px;
-					left: 0;
-				text-align: center;
-				transition: all 0.2s ease-in;
-					-webkit-transition: all 0.1s ease-in;
-					-moz-transition: all 0.1s ease-in;
-					-o-transition: all 0.1s ease-in;
-				width: 280px;
-					height: 100px;
-			}
-
-				#portfolio .article header h1 {
-					color: white;
-					font-size: 24px;
-					line-height: 25px;
-					margin-bottom: 5px;
-					margin-top: 0;
-				}
-
-				#portfolio .article header p,
-				#portfolio .article header p a {
-					color: white;
-					font-size: 14px;
-					line-height: 14px;
-				}
-
-			#portfolio .article img {
-				border-radius: 5px;
-				position: absolute;
-					top: 9px;
-					left: 9px;
-			}
-
-				#portfolio .article .clr {
-					opacity: 0;
-					z-index: 1;
-					transition: all 0.2s ease-in;
-						-webkit-transition: all 0.2s ease-in;
-						-moz-transition: all 0.2s ease-in;
-						-o-transition: all 0.2s ease-in;
-				}
-
-			#portfolio .article:hover {
-				background: #454545;
-				border: 1px solid #454545;
-			}
-
-				#portfolio .article:hover header .details {
-					top: 192px;
-				}
-
-				#portfolio .article:hover .clr {
-					opacity: 1;
-				}
-
-@media only screen and (max-width: 1200px) {
-	#portfolio .article {
-		margin-bottom: 25px;
-	}
-
-	.navbar-right li {
-		font-size: 20px;
-		padding: 5px;
-	}
-
-	.text-super {
-		font-size: 32px;
-	}
-
-	.text-sub {
-		font-size: 32px;
-	}
-}
-
-@media only screen and (max-width: 750px) {
-	.text-super {
-		font-size: 26px;
-	}
-
-	.text-sub {
-		font-size: 26px;
-	}
-
-	.navbar-right li {
-		font-size: 18px;
-	}
-
-	.logo img {
-		width: auto;
-		height: auto;
-	}
-}
-
-@media only screen and (max-width: 520px) {
-	.text-sub {
-		display: none;
-	}
-
-	.text-super {
-		font-size: 20px;
-	}
-}
+/*# sourceMappingURL=styleindex.css.map */
