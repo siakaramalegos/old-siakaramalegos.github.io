@@ -1,30 +1,52 @@
+// *************************
 // Brand colors
+// *************************
 $teal: #04BFBF;
 $light-teal: #CAFCD8;
 $light-green: #A9CF54;
 // $green: ;
 $pink: #FF00FF;
+$yellow: #F7E967;
 
 
 
+
+// *************************
+// Basics & Header
+// *************************
 body {
 	font-family: 'Oswald', sans-serif;
-	color: $light-green;
+	color: white;
 	font-weight: 300;
 	background-color: #333;
-	// padding-top: 75px;
 	position: relative;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	color: $light-green;
+}
+
 p {
-	color: white;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.67;
 }
 
 header {
-	// padding: 65px 0 75px;
+	text-align: center;
+  color: #fff;
+  background-attachment: scroll;
+  background-color: #777;
 
 	h1 {
 		color: $teal;
+		font-weight: 700;
+		text-transform: lowercase;
+    margin-bottom: 0;
+	}
+
+	h2 {
+		color: $light-teal;
 	}
 
 	img#logo {
@@ -33,96 +55,60 @@ header {
 	}
 }
 
-// .navbar {
-// 	border-radius: 0;
-// 	border-bottom: 5px solid $pink;
-// 	background-color: #646464;
-	// height: 75px;
-// 	line-height: 75px;
-// 	padding-top: 15px;
-// }
 
-// 	.navbar-brand {
-// 		font-size: 36px;
-// 		text-transform: lowercase;
-// 	}
 
-// 	.logo {
-// 		padding: 0;
-// 		height: 50px;
-// 		float: left;
-// 		position: relative;
-//  		bottom: 15px;
-// 	}
 
-// .navbar-header a .text-super {
-// 	color: $teal;
-// }
+// *************************
+// Navbar
+// *************************
+.navbar-brand {
+	font-size: 2em;
+	text-transform: lowercase;
 
-// .navbar-header a:hover .text-super {
-// 	color: #FFF;
-// }
+	.text-super {
+		color: $teal;
+		font-weight: 500;
 
-// 	.navbar-right {
-// 		margin-right: 0;
+		&:hover {
+			color: white;
+			-webkit-transition: all .35s;
+	    -moz-transition: all .35s;
+	    transition: all .35s;
+		}
+	}
 
-// 		li {
-// 			font-size: 24px;
-// 			font-weight: 500;
+	.text-sub {
+		color: $light-teal;
+		text-transform: lowercase;
+		font-weight: 500;
+	}
+}
 
-// 			a {
-// 				background-color: #646464;
+.navbar-default .nav {
+	li>a, >li>a:focus {
+    text-transform: lowercase;
+    font-size: 1.2em;
+    font-weight: 500;
 
-// 				&:visited {
-// 				color: #ccc;
-// 				}
-// 			}
+    &:hover {
+	    color: $pink;
+	  }
+	}
 
-// 			.active a {
-// 				color: $light-green;
-// 			}
-// 		}
-// 	}
+  li.active>a, li.active>a:focus {
+    color: $light-green;
+    background-color: transparent;
 
-// 			.navbar-default .navbar-nav>li>a {
-// 				color: #ccc;
-// 			}
+    &:hover {
+	    background-color: transparent;
+		}
+	}
+}
 
-// 			.nav.navbar-nav.navbar-right li a:hover {
-// 				color: $pink;
-// 				background-color: #646464;
-// 			}
-
-// 			.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-// 				color: $light-green;
-// 				background-color: #646464;
-// 			}
-
-// .text-super {
-// 	color: $teal;
-// 	font-weight: 700;
-// 	text-transform: lowercase;
-// 	padding-left: 20px;
-// 	padding-right: 15px;
-// }
-
-// .text-sub {
-// 	color: $light-teal;
-// 	text-transform: lowercase;
-// 	font-weight: 500;
-// }
-
-// .text-yellow {
-// 	color: #F7E967;
-// }
 
 // #footer-right {
 // 	text-align: right;
 // 	margin-bottom: 10px;
-// }
-
-// .about {
-// 	font-size: 16px;
 // }
 
 // label {
@@ -143,109 +129,110 @@ header {
 // 	color: #ccc;
 // }
 
-// #portfolio {
-// 		float: left;
-// 	}
-
-// 		#portfolio .article {
-// 			background: #d0d0d0;
-// 			border: 1px solid #b9b9b9;
-// 			border-radius: 5px;
-// 			float: left;
-// 			margin-bottom: 70px;
-// 			overflow: hidden;
-// 			padding: 9px;
-// 			position: relative;
-// 				transition: all 0.2s ease-in;
-// 					-webkit-transition: all 0.1s ease-in;
-// 					-moz-transition: all 0.1s ease-in;
-// 					-o-transition: all 0.1s ease-in;
-// 			width: 300px;
-// 			height: 300px;
-// 		}
 
 
-// 			#portfolio .article:nth-child(3n+1) {
+
+// *************************
+// Portfolio
+// *************************
+#portfolio {
+		// float: left;
+
+		article {
+			background: #d0d0d0;
+			border: 1px solid #b9b9b9;
+			border-radius: 5px;
+			// float: left;
+			margin-bottom: 70px;
+			overflow: hidden;
+			padding: 9px;
+			position: relative;
+			transition: all 0.2s ease-in;
+				-webkit-transition: all 0.1s ease-in;
+				-moz-transition: all 0.1s ease-in;
+				-o-transition: all 0.1s ease-in;
+			width: 300px;
+			height: 300px;
+
+			&:hover header .details {
+				top: 192px;
+			}
+
+			header {
+				position: relative;
+				width: 280px;
+				height: 280px;
+				z-index: 2;
+				background: none;
+
+				h1 {
+					color: white;
+					font-size: 24px;
+					line-height: 25px;
+					margin-bottom: 5px;
+					margin-top: 0;
+				}
+
+				p, p a {
+					color: white;
+					font-size: 14px;
+					line-height: 14px;
+				}
+
+				.details {
+					background: #454545;
+					background: rgba(80,80,80,0.9);
+					padding: 15px 0;
+					position: absolute;
+						top: 290px;
+						left: 0;
+					text-align: center;
+					transition: all 0.2s ease-in;
+						-webkit-transition: all 0.1s ease-in;
+						-moz-transition: all 0.1s ease-in;
+						-o-transition: all 0.1s ease-in;
+					width: 280px;
+						height: 100px;
+				}
+			}
+
+			img {
+				border-radius: 5px;
+				position: absolute;
+					top: 9px;
+					left: 9px;
+			}
+
+			img.clr {
+				opacity: 0;
+				z-index: 1;
+				transition: all 0.2s ease-in;
+					-webkit-transition: all 0.2s ease-in;
+					-moz-transition: all 0.2s ease-in;
+					-o-transition: all 0.2s ease-in;
+			}
+
+			&:hover {
+				background: #454545;
+				border: 1px solid #454545;
+
+				.clr {
+					opacity: 1;
+				}
+			}
+		} // article
+	} // #portfolio
+
+// 			#portfolio article:nth-child(3n+1) {
 // 				clear: left;
 // 			}
 
-// 			#portfolio .article header {
-
-// 				position: relative;
-// 				width: 280px;
-// 				height: 280px;
-// 				z-index: 2;
-// 			}
-
-// 			#portfolio .article header .details {
-// 				background: #454545;
-// 				background: rgba(80,80,80,0.9);
-// 				padding: 15px 0;
-// 				position: absolute;
-// 					top: 290px;
-// 					left: 0;
-// 				text-align: center;
-// 				transition: all 0.2s ease-in;
-// 					-webkit-transition: all 0.1s ease-in;
-// 					-moz-transition: all 0.1s ease-in;
-// 					-o-transition: all 0.1s ease-in;
-// 				width: 280px;
-// 					height: 100px;
-// 			}
-
-// 				#portfolio .article header h1 {
-// 					color: white;
-// 					font-size: 24px;
-// 					line-height: 25px;
-// 					margin-bottom: 5px;
-// 					margin-top: 0;
-// 				}
-
-// 				#portfolio .article header p,
-// 				#portfolio .article header p a {
-// 					color: white;
-// 					font-size: 14px;
-// 					line-height: 14px;
-// 				}
-
-// 			#portfolio .article img {
-// 				border-radius: 5px;
-// 				position: absolute;
-// 					top: 9px;
-// 					left: 9px;
-// 			}
-
-// 				#portfolio .article .clr {
-// 					opacity: 0;
-// 					z-index: 1;
-// 					transition: all 0.2s ease-in;
-// 						-webkit-transition: all 0.2s ease-in;
-// 						-moz-transition: all 0.2s ease-in;
-// 						-o-transition: all 0.2s ease-in;
-// 				}
-
-// 			#portfolio .article:hover {
-// 				background: #454545;
-// 				border: 1px solid #454545;
-// 			}
-
-// 				#portfolio .article:hover header .details {
-// 					top: 192px;
-// 				}
-
-// 				#portfolio .article:hover .clr {
-// 					opacity: 1;
-// 				}
 
 // @media only screen and (max-width: 1200px) {
-// 	#portfolio .article {
+// 	#portfolio article {
 // 		margin-bottom: 25px;
 // 	}
-
-// 	.navbar-right li {
-// 		font-size: 20px;
-// 		padding: 5px;
-// 	}
+// }
 
 // 	.text-super {
 // 		font-size: 32px;

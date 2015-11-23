@@ -1,16 +1,124 @@
 body {
   font-family: 'Oswald', sans-serif;
-  color: #A9CF54;
+  color: white;
   font-weight: 300;
-  background-color: #333; }
+  background-color: #333;
+  position: relative; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #A9CF54; }
 
 p {
-  color: white; }
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.67; }
 
-header h1 {
-  color: #04BFBF; }
-header img#logo {
-  display: inline-block;
-  max-width: 300px; }
+header {
+  text-align: center;
+  color: #fff;
+  background-attachment: scroll;
+  background-color: #777; }
+  header h1 {
+    color: #04BFBF;
+    font-weight: 700;
+    text-transform: lowercase;
+    margin-bottom: 0; }
+  header h2 {
+    color: #CAFCD8; }
+  header img#logo {
+    display: inline-block;
+    max-width: 300px; }
+
+.navbar-brand {
+  font-size: 2em;
+  text-transform: lowercase; }
+  .navbar-brand .text-super {
+    color: #04BFBF;
+    font-weight: 500; }
+    .navbar-brand .text-super:hover {
+      color: white;
+      -webkit-transition: all .35s;
+      -moz-transition: all .35s;
+      transition: all .35s; }
+  .navbar-brand .text-sub {
+    color: #CAFCD8;
+    text-transform: lowercase;
+    font-weight: 500; }
+
+.navbar-default .nav li > a, .navbar-default .nav > li > a:focus {
+  text-transform: lowercase;
+  font-size: 1.2em;
+  font-weight: 500; }
+  .navbar-default .nav li > a:hover, .navbar-default .nav > li > a:focus:hover {
+    color: #FF00FF; }
+.navbar-default .nav li.active > a, .navbar-default .nav li.active > a:focus {
+  color: #A9CF54;
+  background-color: transparent; }
+  .navbar-default .nav li.active > a:hover, .navbar-default .nav li.active > a:focus:hover {
+    background-color: transparent; }
+
+#portfolio article {
+  background: #d0d0d0;
+  border: 1px solid #b9b9b9;
+  border-radius: 5px;
+  margin-bottom: 70px;
+  overflow: hidden;
+  padding: 9px;
+  position: relative;
+  transition: all 0.2s ease-in;
+  -webkit-transition: all 0.1s ease-in;
+  -moz-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  width: 300px;
+  height: 300px; }
+  #portfolio article:hover header .details {
+    top: 192px; }
+  #portfolio article header {
+    position: relative;
+    width: 280px;
+    height: 280px;
+    z-index: 2;
+    background: none; }
+    #portfolio article header h1 {
+      color: white;
+      font-size: 24px;
+      line-height: 25px;
+      margin-bottom: 5px;
+      margin-top: 0; }
+    #portfolio article header p, #portfolio article header p a {
+      color: white;
+      font-size: 14px;
+      line-height: 14px; }
+    #portfolio article header .details {
+      background: #454545;
+      background: rgba(80, 80, 80, 0.9);
+      padding: 15px 0;
+      position: absolute;
+      top: 290px;
+      left: 0;
+      text-align: center;
+      transition: all 0.2s ease-in;
+      -webkit-transition: all 0.1s ease-in;
+      -moz-transition: all 0.1s ease-in;
+      -o-transition: all 0.1s ease-in;
+      width: 280px;
+      height: 100px; }
+  #portfolio article img {
+    border-radius: 5px;
+    position: absolute;
+    top: 9px;
+    left: 9px; }
+  #portfolio article img.clr {
+    opacity: 0;
+    z-index: 1;
+    transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in; }
+  #portfolio article:hover {
+    background: #454545;
+    border: 1px solid #454545; }
+    #portfolio article:hover .clr {
+      opacity: 1; }
 
 /*# sourceMappingURL=styleindex.css.map */
