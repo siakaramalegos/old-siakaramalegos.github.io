@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--[if IE 9]>
+<html class="ie9" lang="en">    <![endif]-->
+<!--[if IE 8]>
+<html class="ie8" lang="en">    <![endif]-->
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name=viewport content="width=device-width, initial-scale=1">
+
+   <title>Gridus vCard | Blog Post</title>
+
+   <meta name="description" content="Gridus vCard HTML Template is the professional responsive personal website template, based on the latest Bootstrap 3">
+   <meta name="keywords" content="html5, template, website, responsive, bootstrap">
+   <meta name="author" content="neuethemes">
+
+   <!-- Preloader -->
+   <link href="assets/custom/2.2.0/css/preloader.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
+
+   <!-- CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" media="screen">
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
+   <link href="assets/vendor/flaticons/flaticon.min.css?v=29022016" property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
+   <link href="assets/vendor/hover/css/hover-min.css?v=2.0.2" property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
+   <link href="assets/vendor/mfp/css/magnific-popup.min.css?v=1.1.0" property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
+   <link href="assets/vendor/owl-carousel/assets/owl.carousel.min.css?v=2.1.0" property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
+
+   <!-- Custom styles -->
+   <link href="assets/custom/2.2.0/css/style.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
+   <link href="assets/custom/2.2.0/css/layouts/samuel.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
+   <link href="assets/custom/2.2.0/css/colors/default.css" id="color-styles" property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
+</head>
+
+<body id="samuel" class="boxed">
+
+<!--Pre-Loader-->
+<div id="preloader"></div>
+
+<header>
+   <section id="top-navigation" class="container-fluid nopadding">
+      <div class="row nopadding ident ui-bg-color01">
+         <!-- Photo -->
+         <a href="index.html">
+            <div class="col-md-4 vc-photo photo-01">&nbsp;</div>
+         </a>
+         <!-- /Photo -->
+         <div class="col-md-8 vc-name nopadding">
+            <!-- Name-Position -->
+            <div class="row nopadding name">
+               <div class="col-md-10 name-title"><h1 class="font-accident-two-extralight">Samuel Anderson</h1></div>
+               <div class="col-md-2 nopadding name-pdf">
+                  <a href="#" class="hvr-sweep-to-right"><i class="flaticon-download149" title="Download CV.pdf"></i></a>
+               </div>
+            </div>
+            <div class="row nopadding position">
+               <div class="col-md-10 position-title">
+
+                  <section class="cd-intro">
+                     <h2 class="cd-headline clip is-full-width font-accident-two-light">
+                        <span>The experienced </span>
+                        <span class="cd-words-wrapper">
+                           <b class="is-visible">UI/UX Designer</b>
+                           <b>Web Designer</b>
+                           <b>Photographer</b>
+                        </span>
+                     </h2>
+                  </section>
+
+               </div>
+               <div class="col-md-2 nopadding pdf">
+                  <a href="#" class="hvr-sweep-to-right"><i class="flaticon-behance7" title="My Behance Portfolio"></i></a>
+               </div>
+            </div>
+            <!-- /Name-Position -->
+
+            <!-- Main Navigation -->
+
+            <ul id="nav" class="row nopadding cd-side-navigation">
+               <li class="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color01" data-animation-duration="1000" data-animation-delay="100">
+                  <a href="index.html" class="hvr-sweep-to-bottom"><i class="flaticon-insignia"></i><span>home</span></a>
+               </li>
+               <li class="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color02" data-animation-duration="1000" data-animation-delay="300">
+                  <a href="resume.html" class="hvr-sweep-to-bottom"><i class="flaticon-graduation61"></i><span>resume</span></a>
+               </li>
+               <li class="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color03" data-animation-duration="1000" data-animation-delay="500">
+                  <a href="portfolio-4-col.html" class="hvr-sweep-to-bottom"><i class="flaticon-book-bag2"></i><span>portfolio</span></a>
+               </li>
+               <li class="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color04" data-animation-duration="1000" data-animation-delay="700">
+                  <a href="contacts.html" class="hvr-sweep-to-bottom"><i class="flaticon-placeholders4"></i><span>contacts</span></a>
+               </li>
+               <li class="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color05" data-animation-duration="1000" data-animation-delay="900">
+                  <a href="feedback.html" class="hvr-sweep-to-bottom"><i class="flaticon-earphones18"></i><span>feedback</span></a>
+               </li>
+               <li class="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color06" data-animation-duration="1000" data-animation-delay="1100">
+                  <a href="blog-3-col.html" class="hvr-sweep-to-bottom"><i class="flaticon-pens15"></i><span>blog</span></a>
+               </li>
+            </ul>
+
+            <!-- /Main Navigation -->
+
+         </div>
+      </div>
+   </section>
+</header>
+
+<!-- Container -->
+<div class="content-wrap">
+
+   <div id="blogpost" class="inner-content">
+
+      <section id="page-title" class="inner-section"
+               data-animation-origin="right"
+               data-animation-duration="500"
+               data-animation-delay="300"
+               data-animation-distance="50px">
+         <div class="container-fluid nopadding">
+            <h2 class="font-accident-two-bold">My Friend's New Album</h2>
+            <div class="dividewhite2"></div>
+            <div class="post-meta"><span>by <a href="#!">Sam Anderson</a>,</span> <span>March 16, 2015</span></div>
+            <div class="post-tag pull-left"><span><a>Branding</a>,</span><span><a>Design</a></span></div>
+         </div>
+      </section>
+
+      <!-- Blog Block -->
+      <section class="inner-section">
+
+         <div class="container-fluid nopadding">
+
+            <img src="assets/custom/2.2.0/images/layouts/samuel/blog/01.jpg" class="img-responsive"
+                 data-animation-origin="top"
+                 data-animation-duration="500"
+                 data-animation-delay="300"
+                 data-animation-distance="25px">
+
+            <article class="post"
+                     data-animation-origin="top"
+                     data-animation-duration="500"
+                     data-animation-delay="300"
+                     data-animation-distance="25px">
+
+               <div class="dividewhite6"></div>
+
+               <!-- Post Content -->
+               <p>
+                  The system utilised prefabricated light gauge steel frames which could be built economically up to a maximum of 4 storeys. The frames were finished in a variety of claddings and their modular nature could be employed to produce architecturally satisfying buildings. Initially developed solely for schools, the system was also used to provide offices and housing. Important examples include many of the Hertfordshire schools, some of which have since been listed.
+               </p>
+               <p>
+                  Another notable use of CLASP is the University of York, designed by architect Andrew Derbyshire. A later development was known as SCOLA (Second Consortium of Local Authorities) and MACE (Metropolitan Architectural Consortium for Education). The cynics' definition of the CLASP acronym, circulating in the 1970s, was "collection of loosely assembled steel parts". Langwith College, University of York. A notable use of the CLASP system. Vanbrugh College, University of York.
+               </p>
+               <p>
+                  The system utilised prefabricated light gauge steel frames which could be built economically up to a maximum of 4 storeys. The frames were finished in a variety of claddings and their modular nature could be employed to produce architecturally satisfying buildings. Initially developed solely for schools, the system was also used to provide offices and housing. Important examples include many of the Hertfordshire schools, some of which have since been listed.
+               </p>
+               <p>
+                  Another notable use of CLASP is the University of York, designed by architect Andrew Derbyshire. A later development was known as SCOLA (Second Consortium of Local Authorities) and MACE (Metropolitan Architectural Consortium for Education). The cynics' definition of the CLASP acronym, circulating in the 1970s, was "collection of loosely assembled steel parts". Langwith College, University of York. A notable use of the CLASP system. Vanbrugh College, University of York.
+               </p>
+               <!-- /Post Content -->
+
+               <div class="dividewhite4"></div>
+               <hr>
+
+            </article>
+
+
+
+            <div id="comments"
+                 data-animation-origin="top"
+                 data-animation-duration="500"
+                 data-animation-delay="300"
+                 data-animation-distance="25px">
+               <h4 class="font-accident-one-light uppercase">4 comments:</h4>
+
+               <div class="dividewhite4"></div>
+
+               <ul class="media-list">
+
+                  <li class="media">
+                     <div class="media-left">
+                        <a href="#">
+                           <img class="media-object"  alt="64x64" src="assets/custom/2.2.0/images/layouts/samuel/userpics/userpic02.jpg">
+                        </a>
+                     </div>
+                     <div class="media-body">
+                        <div class="post-data">
+                           <div class="post-date">2014 Jun, 14</div>
+                           <div class="post-author"><a href="#">Alisia Silverstone</a></div>
+                        </div>
+                        <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+                        <p><a href="#" class="btn btn-gr btn-xs">Log In to Reply</a></p>
+
+                        <!-- Nested media object -->
+                        <div class="media">
+                           <div class="media-left">
+                              <a href="#">
+                                 <img class="media-object" alt="64x64" src="assets/custom/2.2.0/images/layouts/samuel/userpics/userpic03.jpg">
+                              </a>
+                           </div>
+                           <div class="media-body">
+                              <div class="post-data">
+                                 <div class="post-date">2014 Jun, 14</div>
+                                 <div class="post-author"><a href="#">Amanda Quinn</a></div>
+                              </div>
+                              <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+                              <p><a href="#" class="btn btn-gr btn-xs">Log In to Reply</a></p>
+                              <!-- Nested media object -->
+                              <div class="media">
+                                 <div class="media-left">
+                                    <a href="#">
+                                       <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="assets/custom/2.2.0/images/layouts/samuel/userpics/userpic02.jpg">
+                                    </a>
+                                 </div>
+                                 <div class="media-body">
+                                    <div class="post-data">
+                                       <div class="post-date">2014 Jun, 14</div>
+                                       <div class="post-author"><a href="#">Alessandra James</a></div>
+                                    </div>
+                                    <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+                                    <p><a href="#" class="btn btn-gr btn-xs">Log In to Reply</a></p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- Nested media object -->
+                        <div class="media">
+                           <div class="media-left">
+                              <a href="#">
+                                 <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="assets/custom/2.2.0/images/layouts/samuel/userpics/userpic04.jpg">
+                              </a>
+                           </div>
+                           <div class="media-body">
+                              <div class="post-data">
+                                 <div class="post-date">2014 Jun, 14</div>
+                                 <div class="post-author"><a href="#">Misha Fergusson</a></div>
+                              </div>
+                              <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+                              <p><a href="#" class="btn btn-gr btn-xs">Log In to Reply</a></p>
+                           </div>
+                        </div>
+                     </div>
+                  </li>
+               </ul>
+
+               <div class="dividewhite6"></div>
+               <hr>
+               <div class="dividewhite2"></div>
+
+            </div>
+
+
+
+            <div
+                    data-animation-origin="top"
+                    data-animation-duration="500"
+                    data-animation-delay="300"
+                    data-animation-distance="25px">
+
+               <div id="post-comment">
+                  <h4 class="font-accident-one-light uppercase">Leave a Comment</h4>
+               </div>
+               <div class="dividewhite2"></div>
+
+               <form action="#" method="post" novalidate="novalidate">
+                  <div class="row">
+                     <div class="col-md-4">
+                        <p><label>Name*</label><input type="text" name="your-name" value="" size="60" class="" aria-required="true" aria-invalid="false"></p>
+                     </div>
+                     <div class="col-md-4">
+                        <p><label>Email*</label><input type="text" name="your-email" value="" size="60" class="" aria-required="true" aria-invalid="false"></p>
+                     </div>
+                     <div class="col-md-4">
+                        <p><label>Website</label><input type="text" name="your-website" value="" size="60" class="" aria-required="true" aria-invalid="false"></p>
+                     </div>
+                     <div class="col-md-12">
+                        <p><label>Message</label><textarea name="your-message" cols="60" rows="3" class="" aria-invalid="false"></textarea></p>
+                     </div>
+                  </div>
+                  <div class="dividewhite2"></div>
+                  <p><button type="button" class="btn btn-lg btn-darker">Post Comment</button></p>
+               </form>
+            </div>
+
+
+         </div>
+         <div class="dividewhite8"></div>
+
+      </section>
+      <!-- /Blog Block -->
+
+   </div>
+
+</div>
+
+<footer class="padding-50 dark ui-bg-color01"
+        data-animation-origin="top"
+        data-animation-duration="500"
+        data-animation-delay="800"
+        data-animation-distance="50px">
+   <div class="container-fluid nopadding">
+      <div class="row">
+         <div class="col-sm-3">
+            <h5 class="font-accident-two-bold uppercase">Gridus HTML Template</h5>
+            <p class="inline-block">
+               The Gridus Resume Template has an unique modern flat intuitive design. You can choose one of 8 pre-defined Color schemes.
+            </p>
+            <div class="divider-dynamic"></div>
+         </div>
+         <div class="col-sm-3 cv-link">
+            <h5 class="font-accident-two-bold uppercase">Download cv</h5>
+            <div class="dividewhite1"></div>
+            <a href="#!"><i class="fa fa-long-arrow-down" aria-hidden="true"></i>English</a>
+            <a href="#!"><i class="fa fa-long-arrow-down" aria-hidden="true"></i>German</a>
+            <a href="#!"><i class="fa fa-long-arrow-down" aria-hidden="true"></i>Spanish</a>
+            <p class="inline-block">
+               The CV is in .pdf format. Use the Adobe Reader to open it.
+            </p>
+            <div class="divider-dynamic"></div>
+         </div>
+         <div class="col-sm-3">
+            <h5 class="font-accident-two-bold uppercase">Newsletter</h5>
+            <div class="dividewhite1"></div>
+            <input class="newsletter-email" type="email" required="" name="ne" placeholder="Your Email">
+            <a href="#!" class="btn btn-wh-trans btn-xs">OK</a>
+            <div class="divider-dynamic"></div>
+         </div>
+         <div class="col-sm-3">
+            <h5 class="font-accident-two-bold uppercase">Follow me</h5>
+            <div class="follow">
+               <ul class="list-inline social">
+                  <li><a target="_blank" href="#" class="rst-icon-facebook"><i class="fa fa-facebook"></i></a></li>
+                  <li><a target="_blank" href="#" class="rst-icon-twitter"><i class="fa fa-twitter"></i></a></li>
+                  <li><a target="_blank" href="#" class="rst-icon-pinterest"><i class="fa fa-pinterest"></i></a></li>
+                  <li><a target="_blank" href="#" class="rst-icon-instagram"><i class="fa fa-instagram"></i></a></li>
+                  <li><a target="_blank" href="#" class="rst-icon-youtube"><i class="fa fa-youtube"></i></a></li>
+               </ul>
+            </div>
+            <div class="divider-dynamic"></div>
+         </div>
+      </div>
+      <div class="dividewhite1"></div>
+      <div class="row">
+         <div class="col-md-12 copyrights">
+            <p>© 2016 Samuel Anderson.</p>
+         </div>
+      </div>
+   </div>
+</footer>
+
+<!-- Back to Top -->
+<div id="back-top"></div>
+<!-- /Back to Top -->
+
+<!-- JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
+<script src="https://unpkg.com/isotope-layout@3.0/dist/isotope.pkgd.min.js"></script>
+<script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
+
+<script src="assets/vendor/mfp/js/jquery.magnific-popup.min.js?v=1.1.0" type="text/javascript"></script>
+<script src="assets/vendor/progressbar/progressbar.min.js?v=1.0.1" type="text/javascript"></script>
+<script src="assets/vendor/anicounter/jquery.counterup.min.js?v=1.0" type="text/javascript"></script>
+<script src="assets/vendor/pjax/jquery.pjax.min.js?v=1.9.6" type="text/javascript"></script>
+<script src="assets/vendor/owl-carousel/owl.carousel.min.js?v=2.1.0" type="text/javascript"></script>
+<script src="assets/vendor/headlines/headlines.min.js?v=1.0" type="text/javascript"></script>
+
+<!-- Custom scripts -->
+<script src="assets/custom/2.2.0/js/animation.js" type="text/javascript"></script>
+<script src="assets/custom/2.2.0/js/custom.js" type="text/javascript"></script>
+
+</body>
+</html>
