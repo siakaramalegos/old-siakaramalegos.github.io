@@ -1,6 +1,9 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800|Raleway:200,300,400,400i,500,600,700,800,900');
-/*@import url("https://fonts.googleapis.com/css?family=Exo+2:100,200,300,400,400i,500,600,700,800,900|Open+Sans:300,400,400i,600,700,800");*/
+
+.fa-default {
+  color: inherit;
+}
 /* Colors */
 /*------------------------------------------------------------------
 [Color Scheme / Colors, textures]
@@ -3015,7 +3018,7 @@ footer {
     footer .copyrights {
       display: flex;
       align-items: flex-end;
-      justify-content: flex-end;
+      justify-content: center;
       height: 105px;
     }
     footer .copyrights p {

@@ -56,9 +56,10 @@
             var $backTop = $('#back-top');
             $backTop.on('click', function () {
                 $backTop.velocity({ bottom: "-=20px", opacity: 0 }, { visibility: "hidden" });
-                $("body").velocity("scroll", { duration: 1000,
-                    begin: function() { backTopEvent = true },
-                    complete: function() { backTopEvent = false; backTopVisible = false }
+                $("body").velocity("scroll", {
+                    duration: 1000,
+                    begin: function () { backTopEvent = true },
+                    complete: function () { backTopEvent = false; backTopVisible = false }
                 });
                 return false;
             });
@@ -88,7 +89,7 @@
         (function () {
 
             if (ajaxLoadingEnabled()) {
-                $(document).pjax('a', '.content-wrap', {fragment: '.content-wrap', scrollTo: false});
+                $(document).pjax('a', '.content-wrap', { fragment: '.content-wrap', scrollTo: false });
 
                 $(document).on('pjax:click', function (event) {
                     if (!ajaxLoadingEnabled()) {
@@ -109,7 +110,7 @@
                 $(document).on('pjax:beforeReplace', function () {
                     $('.content-wrap')
                         .velocity({ opacity: 0 }, { duration: 0 })
-                        .velocity({ opacity: 1 }, { duration: 300, easing: [ 0, 1, 1, 0 ] });
+                        .velocity({ opacity: 1 }, { duration: 300, easing: [0, 1, 1, 0] });
                 });
             }
 
@@ -143,22 +144,22 @@
         /** Script for Owl Carousel section **/
         (function () {
             if ($('[data-section="owl-carousel"]').length) {
-                $('[data-section="owl-carousel"]').imagesLoaded( function() {
+                $('[data-section="owl-carousel"]').imagesLoaded(function () {
                     $('.owl-carousel').owlCarousel({
-                        items:1,
-                        loop:true,
-                        nav:true,
+                        items: 1,
+                        loop: true,
+                        nav: true,
                         navText: [
                             "<i class='fa fa-angle-left' aria-hidden='true'></i>",
                             "<i class='fa fa-angle-right' aria-hidden='true'></i>"
                         ],
                         dots: true,
-                        margin:0,
+                        margin: 0,
                         autoplay: true,
                         autoplayTimeout: 11000,
                         autoplayHoverPause: true,
                         autoplaySpeed: 1250,
-                        autoHeight:true
+                        autoHeight: true
                     });
                 });
             }
@@ -167,7 +168,7 @@
         /** Script for Progress Bars **/
         (function () {
             if ($('[data-progressbar]').length) {
-                $('[data-progressbar]').each(function(key, bar) {
+                $('[data-progressbar]').each(function (key, bar) {
                     var data = progressbarConfig($(bar).data());
                     switch (data.progressbar) {
                         case 'line':
@@ -258,18 +259,18 @@
                     grid.isotope();
                 });
 
-                grid.isotope({filter: '*'});
+                grid.isotope({ filter: '*' });
 
                 // filter items on button click
                 $('#isotope-filters').on('click', 'a', function () {
                     var filterValue = $(this).attr('data-filter');
-                    grid.isotope({filter: filterValue});
+                    grid.isotope({ filter: filterValue });
                 });
 
                 // filter items on tag click
                 $('.post-tag').on('click', 'a', function () {
                     var filterValue = $(this).attr('data-filter');
-                    grid.isotope({filter: filterValue});
+                    grid.isotope({ filter: filterValue });
                     $('#isotope-filters a[data-filter="' + filterValue + '"]').focus();
                 });
             }
@@ -337,31 +338,31 @@
                     var styles = [
                         {
                             stylers: [
-                                {saturation: -90}
+                                { saturation: -90 }
                             ]
                         }, {
                             featureType: "road",
                             elementType: "geometry",
                             stylers: [
-                                {lightness: 100},
-                                {visibility: "simplified"}
+                                { lightness: 100 },
+                                { visibility: "simplified" }
                             ]
                         }, {
                             featureType: "road",
                             elementType: "labels",
                             stylers: [
-                                {visibility: "off"}
+                                { visibility: "off" }
                             ]
                         }
                     ];
 
                     // Create a new StyledMapType object, passing it the array of styles,
                     // as well as the name to be displayed on the map type control.
-                    var styledMap = new google.maps.StyledMapType(styles, {name: "Styled Map"});
+                    var styledMap = new google.maps.StyledMapType(styles, { name: "Styled Map" });
 
                     // Create a map object, and include the MapTypeId to add
                     // to the map type control.
-                    var $latlng = new google.maps.LatLng(52.5075419, 13.4261419),
+                    var $latlng = new google.maps.LatLng(29.9574443, -90.0629354),
                         $mapOptions = {
                             zoom: 13,
                             center: $latlng,
@@ -417,8 +418,8 @@
 
         window.sr = window.sr || ScrollReveal();
 
-        $.each(items, function(itemKey, reveal) {
-            $(reveal.selector).each(function(index, elem) {
+        $.each(items, function (itemKey, reveal) {
+            $(reveal.selector).each(function (index, elem) {
                 var data = elem.dataset;
 
                 var revealData = {
@@ -437,7 +438,7 @@
                     easing: (typeof data.animationEasing != "undefined") ? data.animationEasing
                         : (reveal.data.easing || 'cubic-bezier(1.000, 1.000, 1.000, 1.000)'),
                     mobile: false,
-                    afterReveal: function(elem) { $(elem).trigger('afterReveal') }
+                    afterReveal: function (elem) { $(elem).trigger('afterReveal') }
                 };
 
                 window.sr.reveal(elem, revealData);
@@ -466,7 +467,7 @@
             from: (typeof data.progressbarFrom != "undefined") ? data.progressbarFrom : { color: '#aaa', width: 1 },
             to: (typeof data.progressbarTo != "undefined") ? data.progressbarTo : { color: '#333', width: 4 },
             // Set default step function for all animate calls
-            step: function(state, circle) {
+            step: function (state, circle) {
                 circle.path.setAttribute('stroke', state.color);
                 circle.path.setAttribute('stroke-width', state.width);
 
@@ -483,10 +484,12 @@
 })(jQuery);
 
 /** Google Analytics **/
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+(function (i, s, o, g, r, a, m) {
+i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+    (i[r].q = i[r].q || []).push(arguments)
+}, i[r].l = 1 * new Date(); a = s.createElement(o),
+    m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
 // set yor id
 ga('create', 'UA-40696437-5', 'auto');
