@@ -53,7 +53,7 @@
   .color15 a {
     color: #8f8f8f; }
     .color15 a:hover {
-      color: #e74c3c; }
+      color: #caa698; }
 
 .color16 {
   color: #878787 !important; }
@@ -107,7 +107,7 @@
   color: #070707 !important; }
 
 .color-red {
-  color: #e74c3c !important; }
+  color: #caa698 !important; }
 
 .color-orange {
   color: #e67e22 !important; }
@@ -134,7 +134,7 @@
   color: #e17f98 !important; }
 
 .red {
-  background-color: #e74c3c !important; }
+  background-color: #caa698 !important; }
 
 .orange {
   background-color: #e67e22 !important; }
@@ -175,16 +175,16 @@
   .fontcolor-medium-light a {
     color: #8f8f8f !important; }
     .fontcolor-medium-light a:hover, .fontcolor-medium-light a:focus {
-      color: #e74c3c !important; }
+      color: #caa698 !important; }
 
 .hovercolor, .hovercolor a {
-  color: #e74c3c !important; }
+  color: #caa698 !important; }
 
 .accent-color, .accent-color a {
   color: #007EA7 !important; }
 
 .accent-color a:hover {
-  color: #e74c3c !important; }
+  color: #caa698 !important; }
 
 /*Background Color Classes */
 .bg-color01 {
@@ -372,7 +372,7 @@
   border: 1px solid transparent;
   color: #ffffff !important; }
   .btn-wh-trans:hover {
-    background: #e74c3c;
+    background: #caa698;
     color: #ffffff !important; }
 
 /* Circle Skills */
@@ -393,7 +393,7 @@
 #counts.dark .count-container .count .count-icon i:before {
   color: #8f8f8f; }
 #counts.dark .count-container .count:hover .count-icon i:before {
-  color: #e74c3c; }
+  color: #caa698; }
 
 /* Bar Skills */
 #bar-skills.dark .progressbar .circle {
@@ -414,20 +414,20 @@ footer.dark .cv-link a {
   footer.dark .cv-link a i:before {
     color: #ffffff; }
   footer.dark .cv-link a:hover {
-    border-color: #e74c3c;
+    border-color: #caa698;
     background: transparent; }
 footer.dark .follow .social li a i {
   background: #575757; }
   footer.dark .follow .social li a i:before {
     color: #efefef; }
   footer.dark .follow .social li a i:hover {
-    background: #e74c3c; }
+    background: #caa698; }
     footer.dark .follow .social li a i:hover:before {
       color: #ffffff; }
 footer.dark a.btn {
   background: #575757; }
   footer.dark a.btn:hover, footer.dark a.btn:focus {
-    background: #e74c3c; }
+    background: #caa698; }
 
 /* Mark Layout */
 #mark .ui-block-color05 {
@@ -439,7 +439,7 @@ footer.dark a.btn {
 #mark footer a.btn {
   background: #4f4e4c; }
   #mark footer a.btn:hover, #mark footer a.btn:focus {
-    background: #e74c3c; }
+    background: #caa698; }
 #mark .port-filter-light ul li a {
   background: #f7f7f7; }
 
@@ -451,7 +451,7 @@ footer.dark a.btn {
 #james #counts.dark .count-container .count .count-icon i:before {
   color: #efefef; }
 #james #counts.dark .count-container .count:hover .count-icon i:before {
-  color: #e74c3c; }
+  color: #caa698; }
 
 /* Helena */
 /* Olivia */
