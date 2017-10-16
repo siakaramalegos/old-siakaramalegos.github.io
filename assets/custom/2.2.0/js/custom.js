@@ -492,7 +492,7 @@
 })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
 // set yor id
-ga('create', 'UA-40696437-5', 'auto');
+ga('create', 'UA-59135521-1', 'auto');
 ga('send', 'pageview');
 
 
